@@ -1,4 +1,4 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 autocompleteEntries=20;
 _npm_package_completions()
 {
