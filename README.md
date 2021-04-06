@@ -4,7 +4,8 @@ Bash autocompletion for 1.5+ million npm packages.
 
 ## Installation
 
-- Run `bash install.sh` in this repo.
+- Clone this repo `git clone https://github.com/alexyorke/offline-npm-autocomplete`.
+- Add `offline-npm-autocomplete.sh` to your `.bashrc`.
 - Add the auto-updater (`offline-npm-autocomplete-updater.sh`) to your crontab so that you get new package names.
 
 ## Configuring
@@ -13,9 +14,9 @@ Before installing, you can:
 - Adjust how many autocomplete entries you'd like to show by changing the `autocompleteEntries` variable.
 - Auto sort by relevance (this requires a secondary numeric column that is sorted before entries are displayed but removed before the entries are printed.) Not implemented yet.
 
-## Examples
+## How to use
 
-Start typing, then press `tab` twice:
+Type `ns`, then a space, then part of your NPM package name, then press `tab` twice to get autocomplete entries:
 
 ```
 alex@computer:~$ ns @angular-
