@@ -5,4 +5,4 @@
 tmpFile="$(mktemp -p /dev/shm)";
 mkdir -p ~/.offline-npm-autocomplete && \
 curl -sL --compressed "https://github.com/alexyorke/all-npm-package-names/raw/main/all_package_names.txt" > "$tmpFile" && \
-mv "$tmpFile" "~/.offline-npm-autocomplete/all_package_names.txt";
+mv "$tmpFile" ~/.offline-npm-autocomplete/all_package_names.txt;
