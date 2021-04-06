@@ -5,7 +5,7 @@ Bash autocompletion for 1.5+ million npm packages.
 ## Installation
 
 - Clone this repo `git clone https://github.com/alexyorke/offline-npm-autocomplete`.
-- Add `offline-npm-autocomplete.sh` to your `.bashrc`.
+- Add `offline-npm-autocomplete.sh` to your `.bashrc`, or if you just want to run it for this session, run `source offline-npm-autocomplete.sh`.
 - Add the auto-updater (`offline-npm-autocomplete-updater.sh`) to your crontab so that you get new package names.
 - Run the auto-updater at least once, otherwise it won't work.
 
